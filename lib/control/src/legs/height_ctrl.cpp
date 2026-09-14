@@ -1,6 +1,6 @@
-#include "height_ctrl.h"
+#include "legs/height_ctrl.h"
 #include <math.h>
-#include "leg_ik.h"
+#include "legs/leg_ik.h"
 #include "leg_calib.h"
 #include "motor_bus.h"
 

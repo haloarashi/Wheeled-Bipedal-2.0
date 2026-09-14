@@ -1,6 +1,5 @@
-#include "leg_ik.h"
-#include <stdint.h>
-#include "leg_geom.h"
+#include "legs/leg_ik.h"
+#include "legs/leg_geom.h"
 
 // IK topology (physically confirmed, see leg_kinematics.py):
 //   A (motor holder arm, R1) always on +X side (forward)  -> GEOM_RIGHT

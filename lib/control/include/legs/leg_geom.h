@@ -1,4 +1,5 @@
 #pragma once
+#include <cstdint>
 #include <math.h>
 
 // leg_geom.h — shared five-bar geometry for FK (leg_fk.cpp) and IK (leg_ik.cpp)

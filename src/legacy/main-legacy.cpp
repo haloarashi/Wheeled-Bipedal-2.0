@@ -1,10 +1,10 @@
 #include <Arduino.h>
 #include <IntervalTimer.h>
 #include "imu.h"
-#include "leg_fk.h"
-#include "leg_ik.h"
+#include "legs/leg_fk.h"
+#include "legs/leg_ik.h"
 #include "leg_calib.h"
-#include "height_ctrl.h"
+#include "legs/height_ctrl.h"
 #include "com_ctrl.h"
 #include "pid.h"
 #include "motor_bus.h"

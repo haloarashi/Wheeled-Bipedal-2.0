@@ -1,6 +1,5 @@
-#include "leg_fk.h"
-#include <stdint.h>
-#include "leg_geom.h"
+#include "legs/leg_fk.h"
+#include "legs/leg_geom.h"
 
 // Forward kinematics for the five-bar leg. Link lengths and the shared
 // circle-intersection live in leg_geom.h (also used by leg_ik.cpp).
